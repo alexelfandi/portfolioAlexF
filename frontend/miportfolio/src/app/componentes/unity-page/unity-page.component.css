@@ -28,3 +28,20 @@
 .width {
     width: 80%;
 }
+
+/* Seccion objetos ( EJEMPLO: RACE BOX ) */
+
+.seccionObjetoDiv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.seccionObjetoTituloDiv {
+    text-align: center;
+}
+
+.carouselRaceBox {
+    
+}
