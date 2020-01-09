@@ -1,0 +1,30 @@
+.descripcionDiv {
+    width: 100%;
+    padding: 3%;
+}
+.descripcionTitulo {
+    width: 100%;
+}
+.bienvenidaDiv {
+    background-image: url("../../../assets/images/FondoUnity.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 768px;
+}
+.bienvenidaDiv *{
+    color: white;
+}
+.bienvenidaTitulo{
+    text-align: center;
+    margin-bottom: 240px;
+    
+}
+.bienvenidaTitulo h1 {
+    font-size: 4vw; 
+}
+.width {
+    width: 80%;
+}

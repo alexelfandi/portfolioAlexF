@@ -9,9 +9,6 @@
         <a class="nav-link" [routerLink]="['/inicio']">Inicio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/unity']">Unity</a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link" [routerLink]="['/sobremi']">Sobre mi</a>
       </li>
       <li class="nav-item dropdown">
@@ -22,6 +19,24 @@
           <a class="dropdown-item" [routerLink]="['/illustrator']">Illustrator</a>
           <a class="dropdown-item" [routerLink]="['/photoshop']">Photoshop</a>
           <a class="dropdown-item" [routerLink]="['/design3d']">Diseños 3d</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Proyectos web
+        </a>
+        <div class="dropdown-menu dropdown-nav" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" [routerLink]="['/illustrator']">Asp-Net</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Otros proyectos
+        </a>
+        <div class="dropdown-menu dropdown-nav" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" [routerLink]="['/unity']">Unity</a>
         </div>
       </li>
     </ul>

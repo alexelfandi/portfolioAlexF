@@ -10,6 +10,7 @@ import { Design3dComponent } from './componentes/design3d/design3d.component';
 
 const routes: Routes = [
   {path: "inicio", component: InicioComponent},
+  {path: "", component: InicioComponent},
   {path: "unity", component: UnityPageComponent},
   {path: "sobremi", component: SobreMiComponent},
   {path: "photoshop", component: PhotoshopPageComponent},
