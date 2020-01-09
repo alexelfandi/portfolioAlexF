@@ -1,10 +1,3 @@
-.descripcionDiv {
-    width: 100%;
-    padding: 3%;
-}
-.descripcionTitulo {
-    width: 100%;
-}
 .bienvenidaDiv {
     background-image: url("../../../assets/images/fondo1.png");
     background-repeat: no-repeat;
@@ -26,5 +19,32 @@
 }
 .width80 {
     width: 80%;
+}
+.contenidoDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.contenidoDivTitulo {
+    width: 100%;
+    text-align: center;
+}
+.contenidoDivObjetos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.objeto{
+    width: 30%;
+    text-align: center;
+
+}
+.objeto img{
+    width: 50%;
+}
+.lineaPequena {
+    width: 40%;
 }
 
