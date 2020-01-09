@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    font-family:PassionOne-Bold, Passion One;
+    font-size: 1.3vw;
+}
+
+.white { 
+    color: white;
+}
+.text-center {
+    text-align: center;
+}
+
+.text-blue{
+    color: #007bff;
+}
+.bg-black {
+    background-color: black;
+}
