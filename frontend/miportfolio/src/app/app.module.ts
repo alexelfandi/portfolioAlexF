@@ -30,7 +30,7 @@ import { Design3dComponent } from './componentes/design3d/design3d.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularFireModule.initializeApp(environment.firebaseConfig),
+     // AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFirestoreModule,
     AngularFireStorageModule,
   ],
