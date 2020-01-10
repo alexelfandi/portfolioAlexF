@@ -23,3 +23,33 @@ color: white;
 .dropdown-nav a:hover{
     background-color: #3e94f0;
 }
+
+.botonMovil{
+    width: 50px;
+    height: 50px;
+}
+@media (max-width: 991px) {
+    
+
+    .navbar-nav a{
+        font-size: 3vw;
+    }
+    .dropdown-nav a{
+        font-size: 3vw;
+    }
+    .bienvenidaDiv {
+        height: 100px;
+    }
+    
+}
+
+  @media (max-width: 700px) {
+    .navbar-nav a{
+        font-size: 3vw;
+    }
+    .dropdown-nav a{
+        font-size: 3vw;
+    }
+    
+}
+  

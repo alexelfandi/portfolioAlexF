@@ -1,5 +1,5 @@
 .bienvenidaDiv {
-    background-image: url("../../../assets/images/fondo1.png");
+    background-image: url("../../../assets/images/FondoSolo.png");
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
@@ -12,6 +12,12 @@
 }
 .bienvenidaTitulo{
     text-align: center;
+    margin-bottom: 240px;
+    
+}
+.bienvenidaTitulo img{
+    margin-bottom: 30px;
+    width: 60%;
     
 }
 .bienvenidaTitulo h1 {
@@ -59,4 +65,32 @@
         flex-wrap: wrap;
 
     }
-  }
+}
+
+@media (max-width: 991px) {
+    
+    .bienvenidaDiv {
+        height: 400px;
+        
+    }
+    .bienvenidaTitulo {
+        margin-bottom: 0px;
+    }
+    .bienvenidaTitulo h5 {
+        font-size: 3vw;
+    }
+    
+}
+
+@media (max-width: 505px) {
+    
+    .bienvenidaDiv {
+        height: 400px;
+        
+    }
+    .bienvenidaTitulo h1 {
+        font-size: 5vw;
+    }
+    
+}
+
