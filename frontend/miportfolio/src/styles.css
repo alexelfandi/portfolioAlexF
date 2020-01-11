@@ -17,3 +17,16 @@
 .bg-black {
     background-color: black;
 }
+
+@font-face {
+    font-family: montserrat;
+    src: url(./assets/fonts/Monsterrat/Montserrat-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: montserrat-bold;
+    src: url(./assets/fonts/Monsterrat/Montserrat-Bold.ttf);
+  }
+
+
+  
