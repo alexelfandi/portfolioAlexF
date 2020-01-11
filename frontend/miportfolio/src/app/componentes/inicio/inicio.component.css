@@ -55,6 +55,16 @@
 }
 
 
+
+/* Fuentes */
+h2 {
+   font-family: montserrat-bold; 
+}
+h4 {
+    font-family: montserrat;
+}
+
+/* Fuentes */
 @media (max-width: 600px) {
     
     .objeto {
